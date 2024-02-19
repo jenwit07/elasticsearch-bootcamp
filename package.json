@@ -1,0 +1,14 @@
+{
+  "name": "elasticsearch-bootcamp",
+  "version": "1.0.0",
+  "description": "A simple todo app with Elasticsearch",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.10.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15"
+  }
+}
